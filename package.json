@@ -1,0 +1,17 @@
+{
+  "name": "jesttesting",
+  "version": "1.0.0",
+  "description": "Oefenen met testen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Bas Pluijm",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
