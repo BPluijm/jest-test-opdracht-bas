@@ -1,8 +1,26 @@
 // importeren
 const add = require("./index").add;
 const findByName = require("./index").findByName;
+const divide = require("./index").divide
 // Of op deze manier
-// const {add, findByName} = require("./index")
+// const {add, findByName, divide } = require("./index")
+
+test ('devide() function should be return the dividance of 2 numbers', () => {
+    //ARRANGE
+    const num1 = 120;
+    const num2 = 60;
+
+    // ACT
+    const result = divide(num1, num2);
+
+    //ASSERT
+    expect(result).toBe(2);
+})
+
+
+
+
+
 
 
 test("add () function should return the sum of 2 numbers", () => {
@@ -35,6 +53,11 @@ function findByName(users, name){
 
     return null;
 }
+
+
+
+
+
 
 
 test('findByName() returns an object from an array with a specified name',() =>{

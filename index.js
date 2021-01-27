@@ -6,12 +6,12 @@ function add(num1, num2) {
 }
 
 
-function devide(num1, num2) {
+function divide(num1, num2) {
     const result = num1 / num2;
     return result;
 }
 
-const result = devide (100,10);
+const result = divide (100,10);
 console.log("UITKOMST",result);
 
 
@@ -37,4 +37,5 @@ function findByName(users, name){
 module.exports = {
     add: add,
     findByName: findByName,
+    divide: divide,
 };
