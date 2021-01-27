@@ -1,9 +1,9 @@
-function add(num1, num2) {
-    // console.log("INPUT", num1, num2);
-    const sum = num1 + num2;
-    // console.log("SUM", sum);
-    return sum
-}
+// importeren
+const add = require("./index").add;
+const findByName = require("./index").findByName;
+// Of op deze manier
+// const {add, findByName} = require("./index")
+
 
 test("add () function should return the sum of 2 numbers", () => {
     console.log("Hallo dit is een test, echt waar")
