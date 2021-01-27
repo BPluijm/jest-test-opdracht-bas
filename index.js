@@ -5,6 +5,16 @@ function add(num1, num2) {
     return sum
 }
 
+
+function devide(num1, num2) {
+    const result = num1 / num2;
+    return result;
+}
+
+const result = devide (100,10);
+console.log("UITKOMST",result);
+
+
 function findByName(users, name){
     // console.log("INPUT", users, name);
     // 1. loop maken

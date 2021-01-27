@@ -7,14 +7,14 @@ const findByName = require("./index").findByName;
 
 test("add () function should return the sum of 2 numbers", () => {
     console.log("Hallo dit is een test, echt waar")
-// ARRANGE
+// ARRANGE (= klaarzetten)
     const number1 = 4;
     const number2 = 5;
 
-// ACT
+// ACT (=handelen)
     const sum = add(number1, number2);
 
-// ASSERT
+// ASSERT (=beweringen)
     expect(sum).toBe(9);
 });
 
